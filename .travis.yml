@@ -1,0 +1,5 @@
+language: python
+install: pip install tweepy
+script: "python test.py"
+notifications:
+  email: never
